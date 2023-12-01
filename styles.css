@@ -1,0 +1,35 @@
+.topnav {
+  padding-top: 5px;
+  padding-left: 10px;
+  background-color: lightblue;
+  display: flex;
+
+}
+
+.Page {
+  margin-top: 35px;
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-decoration: none;
+}
+.Page:active {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #2b00ff;
+  text-decoration: none;
+}
+.Active{
+  margin-top: 35px;
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #2b00ff;
+  text-decoration: none;
+}
+
+#title {
+  font-family: Arial, sans-serif;
+  margin-right: 10px;
+  font-size: 30px;
+}
