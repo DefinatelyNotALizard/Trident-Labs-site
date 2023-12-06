@@ -3,7 +3,7 @@ body,
 html {
   margin: 0;
   padding: 0;
-  background-color: #0066FF;
+  background: linear-gradient(to bottom, #0066FF, #002233);
 }
 
 h1 {
@@ -14,7 +14,7 @@ h2 {
   font-family: Verdana, sans-serif;
 }
 
-h3 {
+p {
   font-family: Verdana, sans-serif;
 }
 
@@ -22,26 +22,128 @@ h3 {
 .waves {
   padding: 5px;
   height: 100vh;
-  background-image: url('Images/waves_surface_light.svg');
+  background-image: url(Images/waves_surface_light.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+
+
 /*Les enfants de .waves*/
 .white_div {
-  background-color: white;
+  background-color: black;
+  color: white;
   padding: 10px;
   margin: 20px;
-  border-radius: 5px;
+  margin-bottom: 150px;
+  border-radius: 20px;
+}
+
+#navbar {
+  display: flex;
+}
+
+#name {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 0px;
+  align-self: top;
+}
+
+#solutions {
+  margin: 0px;
+  padding: 0px;
+}
+
+#presentation {
+  
+  padding: 100px;
+  padding-left: 50px;
+  font-size: 150%;
+  display: flex;
 }
 
 .logo {
+  margin-top: 2px;
   align-items: left;
+  width: 100px;
+}
+
+.welcome_left {
+  align-self: left;
+}
+
+.welcome_right {
+  align-self: right;
+}
+
+.present-logo {
+  margin: 50px;
+  align-self: right;
+  width: 250px;
 }
 
 /*Ici les elements en dessous de la mer*/
-.blue {
-  background-color: #0066FF;
-  margin: 0;
-  padding: 0;
+
+#what {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
 }
+
+
+
+
+#webDev {
+  margin: 20px;
+  padding: 75px;
+  margin-right: auto;
+  display: flex;
+  color: white;
+}
+
+#webText {
+  margin: 20px;
+  font-size: 250%;
+}
+
+#appDev {
+  margin: 20px;
+  padding: 75px;
+  margin-left: auto;
+  display: flex;
+  color: white;
+}
+
+#appText {
+  margin: 20px;
+  font-size: 250%;
+}
+
+
+
+#appText {
+  align-self: right;
+}
+
+#appTop {
+  display: flex;
+}
+
+#jsIcon {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue {
+  background-color: #001220;
+  padding: 10px;
+  margin: 20px;
+  
+  border-radius: 20px;
+}
+
+
+
